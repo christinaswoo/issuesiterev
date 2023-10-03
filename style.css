@@ -1,0 +1,294 @@
+@font-face {
+	font-family: headerFont;
+	src: url(LEMONMILK-Regular.otf) ;
+}
+
+@font-face {
+	font-family: menuFont;
+	src: url(PlastoTrial-Regular.otf) ;
+}
+
+@font-face {
+	font-family: bodyFont;
+	src: url(Roboto-BoldCondensed.ttf);
+}
+
+@font-face {
+	font-family: bodyFontItalic;
+	src: url(Roboto-BoldCondensedItalic.ttf);
+}
+
+body {
+    background-color: lightpink;
+    margin: 0;
+    padding: 0;
+}
+
+.HeaderNav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    font-family: headerFont;
+    color: mediumseagreen;
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.logocontainer {
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.mbmc {
+    font-size: 130%;
+    align-items: center;
+}
+
+.navbar {
+    align-content: space-around;
+    width: 30%;
+}
+
+nav {
+    font-family: menuFont;
+    font-size: 150%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    margin-right: 5%;
+}
+
+nav a:link, a:visited {
+    color: mediumseagreen;
+    text-decoration: none;
+}
+
+nav a:hover, a:active {
+    color: floralwhite;
+    text-decoration: underline;
+}
+
+
+/*HOME PAGE*/
+
+#HomeP {
+	font-family: bodyFont;
+	color: floralwhite;
+	font-size: 175%;
+	text-align: center;
+	line-height: 1.6;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#wordsP {
+	color: deeppink;
+}
+
+.allCaptions {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.caption {
+	color: floralwhite;
+	font-family: headerFont;
+	padding: 4%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 3%;
+}
+
+.partCaption {
+	color: deeppink;
+}
+
+.cap1 {
+	font-size: 440%;
+	text-align: center;
+	background-color: mediumseagreen;
+	border-radius: 20px;
+	padding: 1.5%;
+	width: 43%;
+}
+
+.cap2 {
+	font-family: bodyFont;
+	text-align: justify;
+	font-size: 150%;
+	line-height: 1.5;
+	width: 43%;
+}
+
+#italic {
+	font-family: bodyFontItalic;
+}
+
+
+/*TAKE ACTION*/
+
+.collageText {
+	position: relative;
+	text-align: center;
+	font-family: headerFont;
+	font-size: 600%;
+	color: floralwhite;
+	width: 100%;
+/*	display: flex;
+	justify-content: center;*/
+
+}
+
+#collage {
+	padding: 50px;
+	max-width: 80%;
+	height: auto;
+	border-radius: 5px;
+}
+
+.bigtext {
+	position: absolute;
+	top: 75%;
+	left: 18%;
+	background-color: mediumseagreen;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#bodyAction{
+	text-align: justify;
+	font-family: bodyFont;
+	font-size: 170%;
+	line-height: 1.3;
+	margin-left: 3%;
+	margin-right: 3%;
+	color: floralwhite;
+	display: flex;
+	justify-content: space-around;
+}
+
+.article {
+	margin: 40px;
+/*	display: inline-block;*/
+	width: 44%;
+	float: left;
+}
+
+.helpHeader1{
+	color: deeppink;
+}
+
+.helpHeader{
+	color: mediumseagreen;
+}
+
+.help {
+	margin: 40px;
+/*	display: inline-block;*/
+	width: 40%;
+	float: right;
+}
+
+
+/*RESOURCES*/
+
+
+#resLink a:link, a:visited {
+	color: mediumseagreen;
+	text-decoration: none;
+}
+
+#resLink a:hover, a:active {
+	color: floralwhite;
+	text-decoration: underline;
+}
+
+#resHeader {
+	text-align: center;
+	font-family: headerFont;
+	color: floralwhite;
+	font-size: 360%;
+	padding: 1%;
+	margin: 2%;
+	background-color: mediumseagreen;
+	border-radius: 10px;
+}
+
+.allTabs {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.tabs {
+	width: 30%;
+	border-style: solid;
+	border-width: 10px;
+	border-color: deeppink;
+	border-radius: 50px;
+	margin: 2%;
+	padding: 3%;
+	height: auto;
+	box-sizing: border-box;
+}
+
+#tabA {
+	width: 3;
+}
+
+#tabB {
+
+}
+
+#tabC {
+	right: 50px;
+}
+
+.content {
+	font-family: bodyFont;
+	font-size: 28px;
+	color: floralwhite;
+	text-align: center;
+
+}
+
+.green {
+	color: mediumseagreen;
+}
+
+.video {
+	width: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
